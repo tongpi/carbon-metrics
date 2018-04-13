@@ -145,15 +145,15 @@
                                             <td style="width: 20%; text-align: right;">
                                                 <fmt:message key="metrics.fromselect.tip" var="msgKeyFromSelectTip" />
                                                 <select name="from" id="from" title="${msgKeyFromSelectTip}">
-                                                    <option value="-5m" selected="selected">Last 5 minutes</option>
-                                                    <option value="-15m">Last 15 minutes</option>
-                                                    <option value="-1h">Last 1 hour</option>
-                                                    <option value="-2h">Last 2 hours</option>
-                                                    <option value="-6h">Last 6 hours</option>
-                                                    <option value="-12h">Last 12 hours</option>
-                                                    <option value="-24h">Last 24 hours</option>
-                                                    <option value="-2d">Last 2 days</option>
-                                                    <option value="-7d">Last 7 days</option>
+                                                    <option value="-5m" selected="selected">最近5分钟</option>
+                                                    <option value="-15m">最近15分钟</option>
+                                                    <option value="-1h">最近1小时</option>
+                                                    <option value="-2h">最近2小时</option>
+                                                    <option value="-6h">最近6小时</option>
+                                                    <option value="-12h">最近12小时</option>
+                                                    <option value="-24h">最近24小时</option>
+                                                    <option value="-2d">最近2天</option>
+                                                    <option value="-7d">最近7天</option>
                                                     <option value="custom">自定义</option>
                                                 </select>
                                             </td>
