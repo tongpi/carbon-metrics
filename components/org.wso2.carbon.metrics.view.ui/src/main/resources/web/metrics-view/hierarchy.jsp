@@ -151,15 +151,15 @@
                                             <fmt:message key="metrics.fromselect.tip" var="msgKeyFromSelectTip"/>
                                             <select name="from" id="from" title="${msgKeyFromSelectTip}">
                                                 <option value="-5m" selected="selected">View last 5 minutes</option>
-                                                <option value="-15m">View last 15 minutes</option>
-                                                <option value="-1h">View last 1 hour</option>
-                                                <option value="-2h">View last 2 hours</option>
-                                                <option value="-6h">View last 6 hours</option>
-                                                <option value="-12h">View last 12 hours</option>
-                                                <option value="-24h">View last 24 hours</option>
-                                                <option value="-2d">View last 2 days</option>
-                                                <option value="-7d">View last 7 days</option>
-                                                <option value="custom">View custom time frame</option>
+                                                <option value="-15m">查看最近15分钟</option>
+                                                <option value="-1h">查看最近1小时</option>
+                                                <option value="-2h">查看最近2小时</option>
+                                                <option value="-6h">查看最近6小时</option>
+                                                <option value="-12h">查看最近12小时</option>
+                                                <option value="-24h">查看最近24小时</option>
+                                                <option value="-2d">查看最近2天</option>
+                                                <option value="-7d">查看最近7天</option>
+                                                <option value="custom">查看自定义时间范围</option>
                                             </select>
                                         </td>
                                         <td style="width: 10%; text-align: right;">
