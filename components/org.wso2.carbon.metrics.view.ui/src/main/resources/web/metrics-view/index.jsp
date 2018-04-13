@@ -154,7 +154,7 @@
                                                     <option value="-24h">Last 24 hours</option>
                                                     <option value="-2d">Last 2 days</option>
                                                     <option value="-7d">Last 7 days</option>
-                                                    <option value="custom">Custom</option>
+                                                    <option value="custom">自定义</option>
                                                 </select>
                                             </td>
                                             <td style="text-align: right;">
