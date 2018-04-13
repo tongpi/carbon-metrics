@@ -508,4 +508,16 @@
         <neethi.wso2.version>2.0.4.wso2v4</neethi.wso2.version>
         <!-- Service Stubs - End -->
     </properties>
+    <distributionManagement>
+        <repository>
+            <id>releases</id>
+            <name>长城数字软件产品库</name>
+            <url>http://192.168.200.69:8081/nexus/content/repositories/releases/</url>
+        </repository>
+        <snapshotRepository>
+            <id>snapshots</id>
+            <name>长城数字软件开发库</name>
+            <url>http://192.168.200.69:8081/nexus/content/repositories/snapshots/</url>
+        </snapshotRepository>
+    </distributionManagement>      
 </project>
