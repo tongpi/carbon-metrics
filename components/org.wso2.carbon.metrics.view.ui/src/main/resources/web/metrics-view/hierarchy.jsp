@@ -150,7 +150,7 @@
                                         <td style="width: 20%; text-align: right;">
                                             <fmt:message key="metrics.fromselect.tip" var="msgKeyFromSelectTip"/>
                                             <select name="from" id="from" title="${msgKeyFromSelectTip}">
-                                                <option value="-5m" selected="selected">View last 5 minutes</option>
+                                                <option value="-5m" selected="selected">查看最近5分钟</option>
                                                 <option value="-15m">查看最近15分钟</option>
                                                 <option value="-1h">查看最近1小时</option>
                                                 <option value="-2h">查看最近2小时</option>
