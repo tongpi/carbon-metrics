@@ -15,6 +15,7 @@
      * limitations under the License.
      */
 %>
+<%@ page pageEncoding="utf-8"%>
 <%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt" %>
 <%@ taglib uri="http://wso2.org/projects/carbon/taglibs/carbontags.jar" prefix="carbon" %>
 <%@ page import="org.apache.axis2.context.ConfigurationContext" %>
@@ -190,7 +191,7 @@
                 <h3 class="metricsH3">
                     <%
                         int lastIndex = path.lastIndexOf('.');
-                        String title = "All Metrics";
+                        String title = "所有指标";
                         if (!"".equals(path)) {
                             title = (lastIndex != -1) ? path.substring(lastIndex + 1) + " Metrics" : path + " Metrics";
                         }
