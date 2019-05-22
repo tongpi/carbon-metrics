@@ -17,11 +17,11 @@
 <component xmlns="http://products.wso2.org/carbon">
     <ManagementPermissions>
         <ManagementPermission>
-            <DisplayName>Monitor</DisplayName>
+            <DisplayName>监控</DisplayName>
             <ResourceId>/permission/admin/monitor</ResourceId>
         </ManagementPermission>
         <ManagementPermission>
-            <DisplayName>Metrics</DisplayName>
+            <DisplayName>指标</DisplayName>
             <ResourceId>/permission/admin/monitor/metrics</ResourceId>
         </ManagementPermission>
     </ManagementPermissions>
